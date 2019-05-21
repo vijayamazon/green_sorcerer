@@ -1,0 +1,11 @@
+AMAZON TOOL:
+
+php c:\\xampp\htdocs\amazon_tool\index.php cron Amazon_mws_product_api product_match
+
+php c:\\xampp\htdocs\amazon_tool\index.php cron Amazon_mws_product_api_ca product_match
+
+php c:\\xampp\htdocs\amazon_tool\index.php cron Amazon_mws_product_api_mx product_match
+
+php c:\\xampp\htdocs\amazon_tool\index.php cron Amazon_mws_product_api_uk product_match
+
+php c:\\xampp\htdocs\amazon_tool\index.php cron Amazon_mws_product_api product_match

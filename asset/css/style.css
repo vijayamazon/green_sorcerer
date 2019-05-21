@@ -1,0 +1,84 @@
+a {
+    color: #343a40;
+}
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    z-index: 10;
+    top: 56px;
+    height: calc(100vh - 56px);
+    width: 260px;
+    background: #F5F5F6;
+}
+.sidebar .nav-link {
+    padding-left: 0;
+}
+.nav-icon {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+}
+.main-content {
+    position: relative;
+    z-index: 11;
+    min-height: 100vh;
+    margin-left: 60px;
+    margin-top: 56px;
+    background: #F9F9FA;
+    transition: 0.5s all;
+}
+.tool-search .form-control, .tool-search select, .tool-search .btn {
+    background: transparent;
+    border: none; 
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #343a40;
+    border-radius: 0;
+    height: 56px;
+    font-size: 24px;
+    color: #343a40;
+}
+.tool-search select option {
+    font-size: 16px;
+}
+.table p, .table th, .table td {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.table th, .table td {
+    padding: 0.5rem;
+}
+.table-responsive::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  background: #F5F5F6; 
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.custom-file-upload {
+    display: inline-flex;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #343a40;
+    border-radius: 0;
+    height: 56px;
+    font-size: 24px;
+    color: #343a40;
+    flex: 1;
+    text-align: left;
+    align-items: center;
+    color: #6c757d;
+}
+.tool-search .form-control:not(:last-child) {
+    margin-right: 5px;
+}
